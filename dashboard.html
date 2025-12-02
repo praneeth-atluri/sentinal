@@ -384,6 +384,11 @@
                         ),
 
                         React.createElement("div", { className: "flex items-center gap-8" },
+                            /* Navigation Links */
+                            React.createElement("div", { className: "hidden md:flex items-center gap-6 mr-4" },
+                                React.createElement("a", { href: "index.html", className: "text-xs font-bold text-slate-400 hover:text-white transition-colors uppercase tracking-wider" }, "Home"),
+                                React.createElement("a", { href: "new.html", className: "text-xs font-bold text-slate-400 hover:text-white transition-colors uppercase tracking-wider" }, "New Landing")
+                            ),
                             /* Current View Indicator */
                             React.createElement("div", { className: "hidden md:flex items-center gap-2 px-3 py-1 rounded bg-slate-800/50 border border-slate-700 text-xs font-mono text-slate-400" },
                                 viewMode === 'MAP' ? React.createElement(Globe, { size: 14 }) : React.createElement(Truck, { size: 14 }),
