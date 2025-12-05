@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sentinal - Financial OS for Logistics</title>
+    <title>Sentinel - Financial OS for Logistics</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -391,11 +391,11 @@
             );
         };
 
-        const SentinalLanding = () => {
+        const SentinelLanding = () => {
             const [isMenuOpen, setIsMenuOpen] = useState(false);
             const [booted, setBooted] = useState(false);
             const dataStream = useDataStream();
-            const subheadline = useTypewriter("Sentinal transforms raw combustion metrics into financial liquidity.", 30);
+            const subheadline = useTypewriter("Sentinel transforms raw combustion metrics into financial liquidity.", 30);
 
             // Boot Sequence Effect
             useEffect(() => {
@@ -429,8 +429,7 @@
                         React.createElement("div", { className: "container mx-auto px-6 h-16 flex justify-between items-center" },
                             React.createElement("div", { className: "flex items-center gap-2 text-white font-bold tracking-tighter text-xl uppercase select-none" },
                                 React.createElement(Terminal, { size: 20, className: "text-orange-500 animate-pulse" }),
-                                "Sentinal",
-                                React.createElement("span", { className: "text-orange-500" }, "_")
+                                "Sentinel", React.createElement("span", { className: "text-orange-500" }, "Twin"), React.createElement("span", { className: "text-orange-500" }, "_")
                             ),
                             React.createElement("div", { className: "hidden md:flex items-center gap-12 text-[10px] tracking-[0.2em] uppercase text-gray-500 font-bold" },
                                 React.createElement("a", { href: "#problem", className: "hover:text-orange-500 transition-colors" }, "01 // The_Bleed"),
@@ -482,7 +481,7 @@
                                 ),
                                 React.createElement("div", { className: "flex flex-col sm:flex-row gap-6 pt-8" },
                                     React.createElement("button", { className: "bg-white text-black px-8 py-4 font-bold text-xs hover:bg-orange-500 hover:text-white transition-all flex items-center justify-center gap-3 group uppercase tracking-widest clip-path-slant" },
-                                        "Deploy_Sentinal",
+                                        "Deploy_Sentinel",
                                         React.createElement(ArrowRight, { size: 16, className: "group-hover:translate-x-1 transition-transform" })
                                     ),
                                     React.createElement("button", { className: "border border-white/20 px-8 py-4 text-xs text-white hover:border-orange-500 hover:text-orange-500 transition-all uppercase tracking-widest flex items-center justify-center gap-3 bg-transparent" },
@@ -591,7 +590,7 @@
                                             React.createElement("div", { className: "flex items-center gap-4 group" },
                                                 React.createElement("div", { className: "w-24 text-gray-500 text-right" }, "PROCESSING"),
                                                 React.createElement(ArrowRight, { size: 12, className: "text-white/20" }),
-                                                React.createElement("div", { className: "px-3 py-1 bg-orange-500/10 border border-orange-500/50 text-orange-500 animate-pulse" }, "SENTINAL_AI_CORE")
+                                                React.createElement("div", { className: "px-3 py-1 bg-orange-500/10 border border-orange-500/50 text-orange-500 animate-pulse" }, "SENTINEL_AI_CORE")
                                             ),
                                             React.createElement("div", { className: "flex items-center gap-4 group" },
                                                 React.createElement("div", { className: "w-24 text-gray-500 text-right" }, "OUTPUT"),
@@ -603,7 +602,7 @@
                                         React.createElement("div", { className: "mt-12 p-4 bg-black border border-white/10 font-mono text-[10px] text-gray-400 relative" },
                                             React.createElement("div", { className: "absolute top-0 right-0 bg-white/10 px-2 py-0.5 text-[8px] text-white" }, "BASH"),
                                             React.createElement("div", { className: "space-y-1" },
-                                                React.createElement("p", null, React.createElement("span", { className: "text-blue-400" }, "root@sentinal:~$ "), "./audit_trip --id=TRK-892"),
+                                                React.createElement("p", null, React.createElement("span", { className: "text-blue-400" }, "root@sentinel:~$ "), "./audit_trip --id=TRK-892"),
                                                 React.createElement("p", { className: "text-gray-600" }, "Analyzing telemetry packets..."),
                                                 React.createElement("p", { className: "text-emerald-400 flex items-center gap-2" },
                                                     React.createElement(ShieldCheck, { size: 10 }), "PTO_ENGAGED: 04:12:00 (SIG_VERIFIED)"
@@ -626,7 +625,7 @@
                                     "We don't guess. ", React.createElement("span", { className: "border-b border-orange-500" }, "We measure the burn.")
                                 ),
                                 React.createElement("p", { className: "text-gray-400 leading-relaxed text-sm md:text-base max-w-lg" },
-                                    "Legacy GPS trackers only know \"Where\". Sentinal knows \"How\". By plugging into the J1939 Engine Port, we capture fuel injection rates, cylinder pressure, and thermal stress in real-time."
+                                    "Legacy GPS trackers only know \"Where\". Sentinel knows \"How\". By plugging into the J1939 Engine Port, we capture fuel injection rates, cylinder pressure, and thermal stress in real-time."
                                 ),
                                 React.createElement("ul", { className: "space-y-4 pt-4" },
                                     [
@@ -675,7 +674,7 @@
                                             ),
                                             React.createElement(ArrowRight, { size: 16, className: "text-emerald-500" }),
                                             React.createElement("div", null,
-                                                React.createElement("div", { className: "text-[10px] text-emerald-500 uppercase font-bold" }, "Sentinal Cycle"),
+                                                React.createElement("div", { className: "text-[10px] text-emerald-500 uppercase font-bold" }, "Sentinel Cycle"),
                                                 React.createElement("div", { className: "text-white text-xl font-bold" }, "T-02 Days")
                                             )
                                         )
@@ -716,7 +715,7 @@
                                 React.createElement("div", { className: "col-span-2" },
                                     React.createElement("div", { className: "flex items-center gap-2 text-white font-bold text-xl mb-6" },
                                         React.createElement(Terminal, { size: 20, className: "text-orange-500" }),
-                                        "Sentinal_"
+                                        "Sentinel_"
                                     ),
                                     React.createElement("p", { className: "text-gray-500 leading-relaxed max-w-xs normal-case tracking-normal text-xs" },
                                         "Bengaluru, India.", React.createElement("br"),
@@ -740,7 +739,7 @@
                                 )
                             ),
                             React.createElement("div", { className: "border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4" },
-                                React.createElement("div", { className: "text-gray-600" }, "© 2025 SENTINAL INDUSTRIES."),
+                                React.createElement("div", { className: "text-gray-600" }, "© 2025 SENTINEL INDUSTRIES."),
                                 React.createElement("div", { className: "flex items-center gap-4 font-mono text-gray-600" },
                                     React.createElement("span", null, "LAT: 12.9716° N"),
                                     React.createElement("span", null, "LON: 77.5946° E"),
@@ -754,7 +753,7 @@
         };
 
         const root = ReactDOM.createRoot(document.getElementById('root'));
-        root.render(React.createElement(SentinalLanding));
+        root.render(React.createElement(SentinelLanding));
     </script>
 </body>
 

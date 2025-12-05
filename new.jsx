@@ -263,11 +263,11 @@ const TruckXRayScanner = () => {
     );
 };
 
-const SentinalLanding = () => {
+const SentinelLanding = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [booted, setBooted] = useState(false);
     const dataStream = useDataStream();
-    const subheadline = useTypewriter("Sentinal transforms raw combustion metrics into operational dominance.", 30);
+    const subheadline = useTypewriter("Sentinel transforms raw combustion metrics into operational dominance.", 30);
 
     useEffect(() => {
         const timer = setTimeout(() => setBooted(true), 1500);
@@ -296,7 +296,7 @@ const SentinalLanding = () => {
                 <div className="container mx-auto px-6 h-16 flex justify-between items-center">
                     <div className="flex items-center gap-2 text-white font-bold tracking-tighter text-xl uppercase select-none">
                         <Terminal size={20} className="text-orange-500 animate-pulse" />
-                        Sentinal<span className="text-orange-500">_</span>
+                        Sentinel<span className="text-orange-500">Twin</span><span className="text-orange-500">_</span>
                     </div>
 
                     <div className="hidden md:flex items-center gap-12 text-[10px] tracking-[0.2em] uppercase text-gray-500 font-bold">
@@ -346,7 +346,7 @@ const SentinalLanding = () => {
                         </p>
                         <div className="flex flex-col sm:flex-row gap-6 pt-8">
                             <button className="bg-white text-black px-8 py-4 font-bold text-xs hover:bg-orange-500 hover:text-white transition-all flex items-center justify-center gap-3 group uppercase tracking-widest clip-path-slant">
-                                Deploy_Sentinal
+                                Deploy_Sentinel
                                 <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
                             </button>
                             <button className="border border-white/20 px-8 py-4 text-xs text-white hover:border-orange-500 hover:text-orange-500 transition-all uppercase tracking-widest flex items-center justify-center gap-3 bg-transparent">
@@ -495,7 +495,7 @@ const SentinalLanding = () => {
                                 <div className="text-gray-500 w-32">PROCESSING</div>
                                 <ArrowRight size={14} className="text-gray-700" />
                                 <div className="relative w-40">
-                                    <div className="px-3 py-1.5 border border-orange-500/50 bg-orange-500/10 text-orange-500 animate-pulse text-center cursor-pointer relative z-20">SENTINAL_AI_CORE</div>
+                                    <div className="px-3 py-1.5 border border-orange-500/50 bg-orange-500/10 text-orange-500 animate-pulse text-center cursor-pointer relative z-20">SENTINEL_AI_CORE</div>
 
                                     {/* INJECTED MINI GRAPH (Connected) */}
                                     <div className="absolute top-1/2 left-full w-24 h-24 ml-8 -mt-12 border border-white/10 bg-black p-2 z-10 hidden lg:block">
@@ -528,7 +528,7 @@ const SentinalLanding = () => {
                             {/* Mock Bash Console */}
                             <div className="mt-12 pt-6 border-t border-white/10 font-mono text-[10px] text-gray-500 space-y-2 relative z-10">
                                 <div className="absolute top-[-10px] right-0 bg-[#222] text-white px-1 text-[8px]">BASH</div>
-                                <p><span className="text-blue-500">root@sentinal:~$</span> ./audit_trip --id=TRK-892</p>
+                                <p><span className="text-blue-500">root@sentinel:~$</span> ./audit_trip --id=TRK-892</p>
                                 <p>Analyzing telemetry packets...</p>
                                 <p className="text-emerald-500">✔ PTO_ENGAGED: 04:12:00 (SIG_VERIFIED)</p>
                                 <p className="text-emerald-500">✔ LOAD_DROP: CONFIRMED @ 12.9716° N</p>
@@ -547,7 +547,7 @@ const SentinalLanding = () => {
                         </div>
 
                         <p className="text-gray-400 leading-relaxed max-w-md">
-                            Legacy GPS trackers only know "Where". Sentinal knows "How". By plugging into the J1939 Engine Port, we capture fuel injection rates, cylinder pressure, and thermal stress in real-time.
+                            Legacy GPS trackers only know "Where". Sentinel knows "How". By plugging into the J1939 Engine Port, we capture fuel injection rates, cylinder pressure, and thermal stress in real-time.
                         </p>
 
                         <ul className="space-y-6 pt-4 text-sm text-gray-300 font-mono">
@@ -646,7 +646,7 @@ const SentinalLanding = () => {
                         <div className="col-span-2">
                             <div className="flex items-center gap-2 text-white font-bold text-xl mb-6">
                                 <Terminal size={20} className="text-orange-500" />
-                                Sentinal_
+                                Sentinel_
                             </div>
                             <p className="text-gray-500 leading-relaxed max-w-xs normal-case tracking-normal text-xs">
                                 Bengaluru, India.<br />
@@ -670,7 +670,7 @@ const SentinalLanding = () => {
                         </div>
                     </div>
                     <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-                        <div className="text-gray-600">© 2025 SENTINAL INDUSTRIES.</div>
+                        <div className="text-gray-600">© 2025 SENTINEL INDUSTRIES.</div>
                         <div className="flex items-center gap-4 font-mono text-gray-600">
                             <span>LAT: 12.9716° N</span>
                             <span>LON: 77.5946° E</span>
@@ -683,4 +683,4 @@ const SentinalLanding = () => {
     );
 };
 
-export default SentinalLanding;
+export default SentinelLanding;
